@@ -1,0 +1,104 @@
+:root{
+    --main-color-1:#30B5B2;
+    --main-color-2:#333333;
+    --main-color-3: #e8598f;
+    --main-color1-hover:#25928c;
+    --title-2-afer:#e5e5e5;
+    --color-3:azure;
+}
+.main .main-right .form  input[type="text"],
+.main-right .form  select{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    outline: none;
+    width: 400px;
+    height: 40px;
+    padding: 10px;
+    margin: 0 20px 20px 0;
+    
+}
+.form .img{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    outline: none;
+    width: 400px;
+    height: 40px;
+    padding: 5px;
+    margin: 0 20px 20px 0;
+}
+.form .img{
+    margin-left: -20px;
+    margin-right: 30px;
+}
+.main-right .form textarea{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    outline: none;
+    padding: 15px;
+    margin: 0 20px 20px 0;
+}
+.main-right .form .send{
+    width: 400px;
+    height: 40px;
+    background: var(--main-color-1);
+    color: var(--color-3);
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+}
+.main-right .form-info table tr td input[type=email],
+.main-right .form-info table tr td .hoten{
+    width: 150px;
+    padding: 5px;
+}
+.main-right .form-info table tr td .if{
+    width: 100px;
+    padding: 5px;
+}
+.main-right .form-info  .sd{
+    width: 100px;
+    height: 40px;
+    padding: 15px;
+    background: var(--main-color-1);
+    padding: 3px;
+    border: none;
+    color: var(--color-3);
+}
+.main-right .form-info .sd:hover{
+    background: var(--main-color1-hover);
+    
+}
+.main-right .form-info table tr td{
+    padding: 10px;
+} 
+.main-right .form-info table tr td input[type=text],
+.main-right .form-info table tr td select,
+.main-right .form-info table tr td input[type=date],
+.main-right .form-info table tr td input[type=email],
+.main-right .form-info table tr td input[type=password]{
+    outline: none;
+   border: 2px solid var(--main-color-2);
+    width: 500px;
+    height: 40px;
+    padding: 0 10px 0 10px;
+    
+}
+.main-right .form-info table tr td textarea{
+    outline: none;
+    border: 2px solid var(--main-color-2);
+     padding: 10px;
+}
+.main-right .form-info table tr td:first-child{
+    width: 200px;
+    font-size: 20px;
+}
+#body .cart form .a a{
+    color: #30B5B2;
+    text-decoration: none;
+
+}
+#t{
+    text-decoration: none;
+    color: var(--main-color-3);
+}
+

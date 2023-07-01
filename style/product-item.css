@@ -1,0 +1,103 @@
+:root{
+    --main-color-1:#30B5B2;
+    --main-color-2:#333333;
+    --main-color-3: #e8598f;
+    --main-color1-hover:#25928c;
+    --main-color3-hover:#a73963;
+    --title-2-afer:#e5e5e5;
+    --title-3-afer:#686464;
+    --color-3:azure;
+}
+.col-sm-9 .product .row .col-sm-6 .type-img img{
+    width: 100%;
+    cursor: pointer;
+} 
+.col-sm-6 .first-select1 span{
+    color: var(--title-2-afer);
+}
+.col-sm-6 .first-select1 span a{
+    text-decoration: none;
+    color: var(--title-3-afer);
+}
+.chose {
+    margin-top: 40px;
+}
+.chose form input[type="number"]{
+    padding: 3px;
+    width: 70px;
+    height: 50px;
+}
+.chose form input[type="submit"]{
+    width: 160px;
+    height: 50px;
+    margin-left: 20px;
+    padding: 5px;
+    background: var(--main-color-3);
+    color: var(--color-3);
+    border: none;
+}
+.chose form a{
+    text-decoration: none;
+    background: var(--main-color-3);
+    padding: 10px;
+    color: var(--color-3);
+    margin-left: 10px;
+}
+.chose form input[type="submit"]:hover{
+    background: var(--main-color3-hover);
+}
+.col-sm-9 .product .img-product{
+    height: 50px;
+}
+
+.tab-content #menu1 .bl-comment{
+    border: 2px solid var(--main-color-1);
+    padding: 30px;
+}
+.bl-comment form textarea{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: var(--title-2-afer);
+    outline: none;
+    padding: 20px;
+}
+.bl-comment form .info input{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    outline: none;
+    width: 365px;
+    height: 40px;
+    padding: 15px;
+}
+.bl-comment form .send input{
+    width: 80px;
+    height: 40px;
+    background: var(--main-color-1);
+    color: var(--color-3);
+    font-weight: bold;
+    padding: 5px;
+    border: none;
+}
+.list-op ul li a{
+    color: black;
+}
+.list-op ul li a:hover{
+    color:var(--main-color-3);
+}
+
+.img-product ul{
+    margin: 0;
+    padding: 0;
+}
+.img-product ul li{
+    list-style-type: none;
+    margin-right: 20px;
+}
+.img-product ul li img{
+    width: 100px;
+    cursor: pointer;
+}
+.chose form #gh{
+    background: var(--main-color-3);
+    padding: 10px;
+    color: var(--color-3);
+}

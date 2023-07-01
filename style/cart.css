@@ -1,0 +1,67 @@
+:root{
+    --main-color-1:#30B5B2;
+    --main-color-2:#333333;
+    --main-color-3: #e8598f;
+    --main-color-3hover: #c04473;
+    --main-color1-hover:#25928c;
+    --title-2-afer:#e5e5e5;
+    --color-3:azure;
+}
+#body .cart form .link a{
+    background: var(--main-color-1);
+    padding: 10px;
+    color: var(--color-3);
+    text-decoration: none;
+}
+
+#body .cart form .link a:hover{
+    background: var(--main-color1-hover);
+}
+#body .cart form .link input[type="submit"]{
+    width: 200px;
+    padding: 10px;
+    background: var(--main-color-3);
+    color: var(--color-3);
+    border: none;
+}
+#body .cart form .link input[type="submit"]:hover{
+    background: var(--main-color-3hover);
+}
+
+.pay .pay-left form table tr td input[type="text"],
+.pay .pay-left form table tr td textarea
+{
+    width: 500px;
+    height: 40px;
+    border: 2px solid var(--title-2-afer);
+    border-radius: 2px;
+    outline: none;
+    margin: 10px 0;
+}
+.pay .pay-left form table tr td textarea{
+    height: 200px;
+}
+.pay .pay-right .pay-right-main{
+    border: 2px solid var(--main-color-1);
+}
+.pay-right .pay-right-main input{
+    background: var(--main-color-3);
+    padding: 10px;
+    width: 150px;
+    border: none;
+    color: var(--color-3);
+}
+.pay-right .pay-right-main input:hover{
+    background: var(--main-color-3hover);
+}
+.add-address{
+    background: var(--main-color-1);
+    padding: 20px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    color: var(--color-3);
+}
+.add-address{
+    text-align: justify;
+}

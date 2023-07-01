@@ -1,0 +1,103 @@
+:root{
+    --main-color-1:#30B5B2;
+    --main-color-2:#333333;
+    --main-color-3: #e8598f;
+    --main-color1-hover:#25928c;
+    --title-2-afer:#e5e5e5;
+    --color-3:azure;
+}
+.first-select .first-select1 a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 5px;
+    color: #94A1C4;
+}
+.first-select .first-select1 a:hover{
+    color: black;
+}
+.first-select .first-select1 span{
+    font-size: 20px;
+}
+.first-select1 select{
+    height: 35px;
+    width: 250px;
+    outline: none;
+    border: 1px solid #333;
+    border-radius: 3px;
+    background-color: #fff;
+    margin-right: 18px;
+}
+.first-select1 select option{
+    border: 3px;
+    padding: 3px;
+    margin: 3px 3px;
+}
+.category .first-category .title-2{
+    margin: 0 auto 20px;
+    position: relative;
+    line-height:50px ;
+    color: var(--color-text);
+    font-size: 18px;
+
+    
+}
+.title-2::after{
+    content: "";
+    background: var(--title-2-afer);
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: translateY(-50%);
+
+}
+.category .first-category .type{
+    border: 1px solid var(--title-2-afer);
+}
+.category .first-category .type .dm a{
+    text-decoration: none;
+    color: black;
+}
+.category .first-category .type .dm {
+    border-bottom: 1px solid var(--title-2-afer);
+}
+.category .first-category .type .dm a:hover{
+    color: var(--main-color-3);
+}
+.category .first-category .type .dm:last-child{
+    border-bottom: none;
+}
+.first-category .type .type-of img{
+    width: 60px;
+    height: 60px;
+
+}
+.category .first-category .type .type-of{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    border-bottom: 1px solid var(--title-2-afer);
+}
+.category .first-category .type .type-of:last-child{
+    border-bottom: none;
+}
+.category .first-category .type .type-of .type-img img{
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    border-radius: 2px;
+}
+.category .first-category .type .type-des{
+    line-height: 20px;
+}
+.category .first-category .type .type-des a{
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--color-text);
+    margin-bottom: 5px;
+}
+.category .first-category .type .type-des a:hover{
+    color: var(--main-color-3);
+}

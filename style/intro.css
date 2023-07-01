@@ -1,0 +1,47 @@
+:root{
+    --main-color-1:#30B5B2;
+    --main-color-2:#333333;
+    --main-color-3: #e8598f;
+    --main-color1-hover:#25928c;
+    --title-2-afer:#e5e5e5;
+    --color-3:azure;
+}
+ 
+.body .title-intro{
+    position: relative;
+    font-size: 22px;
+
+}
+.body .title-intro .title::after{
+    content: "";
+    background: #30b5b2;
+    width: 125px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -10px;
+    left: 45%;
+    transform: translateY(-50%);
+}
+.body .benner{
+    width: 100%;
+}
+.body .benner img{
+    width: 100%;
+}
+.body .main button{
+    width: 105px;
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    background: var(--main-color-1);
+    color:var(--color-3);
+    font-weight: bold;
+  
+}
+.body .main button:hover{
+    background: var(--main-color1-hover);
+}
+
+
+
